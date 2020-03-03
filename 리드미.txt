@@ -1,0 +1,11 @@
+우선 server/ $ npm install 을 통해 npm 모듈 다운로드
+
+현재 NCP에서 api 사용 반납을 해놨습니다.
+따라서 만약 사용하기 위해서는 Object Detection과 CSS를 NCP에서 등록을 해 놓으신 후,
+아이디와 시크릿 키를 server/naver_api/naver_api.py 의 9~10 줄에 입력해주셔야 합니다.
+
+서버 실행 : server/ $ python3 run.py
+클라 실행 : client/ $ npm start
+
+클라 실행 시 동그란 버튼을 클릭하여 사진을 촬영하고, 밑에 '동 행' 버튼을 눌러 서버로 전송합니다.
+사진 촬영 -> 서버 전송
